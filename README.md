@@ -10,41 +10,26 @@ Overview
 This program allows users to convert between units across three major categories:
 
 Temperature Units
-
 Celsius (C)
-
 Fahrenheit (F)
-
 Kelvin (K)
 
 
 Length Units
-
 Kilometer (km)
-
 Meter (m)
-
 Centimeter (cm)
-
 Millimeter (mm)
-
 Mile
-
 Foot (ft)
-
 Inch
 
 
 Weight Units
-
 Kilogram (kg)
-
 Gram (g)
-
 Milligram (mg)
-
 Pound (lb)
-
 Ounce (oz)
 
 
