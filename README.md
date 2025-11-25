@@ -1,4 +1,4 @@
-Unit Converter
+Unit Converter...
 
 A simple, beginner-friendly Python project for converting values between different units. I built this as part of my first semester Python coursework to practice logic, functions, and organizing code clearly.
 
@@ -53,7 +53,7 @@ The code is structured using functions and dictionaries to make unit conversions
 
 ---
 
-How to Use
+How to Use the unit converter
 
 1. Run the program using:
 
