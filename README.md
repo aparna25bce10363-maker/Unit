@@ -40,7 +40,7 @@ To unit (C/F/K): F
 100°C = 212.00°F
 ```
 
-## What I learned
+## What I learned from this project
 
 - How to write functions that take inputs and return values
 - Using dictionaries to organize data
