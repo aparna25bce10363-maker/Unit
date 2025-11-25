@@ -3,8 +3,6 @@ Unit Converter...
 A simple, beginner-friendly Python project for converting values between different units. I built this as part of my first semester Python coursework to practice logic, functions, and organizing code clearly.
 
 
----
-
 Overview
 
 This program allows users to convert between units across three major categories:
@@ -36,7 +34,6 @@ Ounce (oz)
 The code is structured using functions and dictionaries to make unit conversions clean, organized, and easy to extend later.
 
 
----
 
 How to Use the unit converter
 
@@ -71,7 +68,7 @@ The target unit
 
 
 
----
+
 
 Example Output
 
@@ -88,17 +85,14 @@ To unit (C/F/K): F
 100°C = 212.00°F
 
 
----
-
 Complete Python Code (Highly Commented Version)
 
 Below is an improved and fully commented version of your project.
-You can copy this into unit_converter.py.
+You can copy this into 
 
-# -----------------------------------------
 # UNIT CONVERTER PROJECT
 # Created as a first-semester Python project
-# -----------------------------------------
+
 
 # This program converts between units of
 # temperature, length, and weight.
@@ -106,9 +100,9 @@ You can copy this into unit_converter.py.
 # to keep the code clean and organized.
 
 
-# ------------------------------
+
 # TEMPERATURE CONVERSION FUNCTION
-# ------------------------------
+
 def convert_temperature(value, from_unit, to_unit):
     from_unit = from_unit.upper()
     to_unit = to_unit.upper()
@@ -134,10 +128,10 @@ def convert_temperature(value, from_unit, to_unit):
         raise ValueError("Invalid temperature unit")
 
 
-# ------------------------------
+
 # LENGTH CONVERSION FUNCTION
 # Using meters as a base unit
-# ------------------------------
+
 length_factors = {
     "km": 1000,
     "m": 1,
@@ -162,10 +156,10 @@ def convert_length(value, from_unit, to_unit):
     return meters / length_factors[to_unit]
 
 
-# ------------------------------
+
 # WEIGHT CONVERSION FUNCTION
 # Using grams as a base unit
-# ------------------------------
+
 weight_factors = {
     "kg": 1000,
     "g": 1,
@@ -188,9 +182,9 @@ def convert_weight(value, from_unit, to_unit):
     return grams / weight_factors[to_unit]
 
 
-# ------------------------------
+
 # MAIN PROGRAM LOOP
-# ------------------------------
+
 def main():
     print("===== Unit Converter =====")
     print("1. Temperature (C, F, K)")
@@ -223,7 +217,7 @@ if __name__ == "__main__":
     main()
 
 
----
+
 
 What I Learned
 
@@ -242,8 +236,6 @@ The differences between metric and imperial systems
 Writing clean, readable, well-commented code
 
 
-
----
 
 Future Improvements
 
